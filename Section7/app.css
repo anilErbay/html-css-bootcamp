@@ -1,0 +1,23 @@
+h1 {
+  /* font-family: "Segoe UI", Futura, sans-serif; */
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 20px;
+  font-weight: 100;
+  text-shadow: -2px 2px magenta, -4px 4px cyan;
+}
+
+/* p {
+    font-weight: bold;
+    word-spacing: normal;
+    line-height: 2;
+} */
+
+a {
+  font-style: italic;
+}
+
+body {
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+}

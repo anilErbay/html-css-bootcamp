@@ -1,0 +1,44 @@
+.btn {
+  background-color: white;
+  border: 2px solid black;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-top: 30px;
+  transition: color 3s, background-color 3s;
+  /* transition: all 5s; */
+}
+
+.btn:hover {
+  background-color: orangered;
+  color: white;
+}
+
+/* ********** */
+.btn2 {
+  background-color: white;
+  border: 2px solid black;
+  padding: 10px 20px;
+  display: inline-block;
+  margin: 30px 30px;
+  transition: transform 3s ease-out;
+}
+
+.btn2:hover {
+  transform: translateX(100px);
+}
+
+/* ********** */
+
+.btn3 {
+  background-color: white;
+  border: 2px solid black;
+  padding: 10px 20px;
+  display: inline-block;
+  margin: 30px 30px;
+  transition: background-color 2s ease-in 1s, color 1s ease-out 3s;
+}
+
+.btn3:hover {
+  background-color: olive;
+  color: magenta;
+}

@@ -1,0 +1,58 @@
+/* adjacent combinator */
+/* the + combinator selects elements that are directly after the first element */
+
+/* h2 + p {
+  color: deeppink;
+} */
+
+/* sibling combinator */
+/* the ~ combinator selects siblings. The 2nd element must follow the 1st element (immediately or not),and they must share the same parent. */
+
+h2 ~ p {
+  color: deeppink;
+}
+
+/* pseudo classes */
+h2:hover {
+  color: orange;
+}
+
+/* input:disabled {
+  background-color: red;
+} */
+
+input:placeholder-shown {
+  background-color: red;
+}
+
+a:visited {
+  color: olive;
+}
+
+li:first-of-type {
+  border: 1px solid magenta;
+}
+
+/* li:last-of-type {
+    border: 1px solid magenta;
+} */
+
+/* li:nth-last-of-type(2) {
+  background-color: antiquewhite;
+} */
+
+/* li:nth-last-of-type(2n) {
+  background-color: antiquewhite;
+} */
+
+button:active {
+  background-color: pink;
+}
+
+input:focus {
+  border: 5px solid red;
+}
+
+body :not(h1, h2, h3, h4, h5, h6) {
+  border: 1px solid yellowgreen;
+}

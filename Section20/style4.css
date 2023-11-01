@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(cyan, purple);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}

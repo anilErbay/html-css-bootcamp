@@ -1,0 +1,37 @@
+/* min-max width */
+
+.box1 {
+  width: 80%;
+  min-width: 300px;
+  max-width: 600px;
+  height: 200px;
+  background-color: mediumvioletred;
+  margin: 0 auto;
+}
+
+/* border-radius */
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-color: violet;
+  /* margin: 0 auto; */
+  border-radius: 50%;
+}
+.box3 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(130, 238, 157);
+  /* margin: 0 auto; */
+  border-radius: 30% 70% 20% 90%;
+}
+.box4 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(238, 130, 130);
+  /* margin: 0 auto; */
+  border-radius: 10px 40px 35px 70px;
+}
+.block {
+  display: inline-block;
+  margin: 10px;
+}

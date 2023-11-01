@@ -1,0 +1,62 @@
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+/* text-decoration ,text-transform */
+h1 {
+  text-transform: uppercase;
+  /* text-decoration-line: line-through;
+  text-decoration-color: cyan;
+  text-decoration-style: wavy; */
+  /* text-decoration-thickness: 10px; */
+  text-decoration: magenta line-through wavy 5px;
+}
+
+/* a {
+  text-decoration: none;
+} */
+
+/* id selector */
+#featured {
+  background-color: gold;
+  font-size: 20px;
+}
+
+#reviews {
+  text-decoration: gold underline;
+}
+
+.tag {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  /* for fun below */
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* styling lists */
+#cast {
+  /* list-style-type: "*"; */
+  /* list-style-type: none; */
+  /* list-style-type: circle; */
+  /* list-style: none; */
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+/* hover */
+a {
+  color: olive;
+  text-decoration: none;
+}
+a:visited {
+  color: orangered;
+}
+a:hover {
+  color: magenta;
+  text-decoration: underline;
+  /* default is pointer */
+  cursor: pointer;
+  /* cursor: crosshair; */
+}

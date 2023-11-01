@@ -1,0 +1,60 @@
+/* * {
+    margin: 0;
+    padding: 0;
+}  */
+
+/* attribute selector */
+input[type="number"] {
+  background-color: gold;
+}
+
+a[href*="wiki"] {
+  color: cyan;
+}
+
+a[href^="#"] {
+  color: orange;
+}
+
+body {
+  font-family: Merriweather, serif;
+}
+
+/* grouping selectors */
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Work Sans", sans-serif;
+}
+
+.score,
+.tag {
+  background-color: orangered;
+  color: white;
+}
+
+/* descendant combinator */
+/* li span {
+    color: purple;
+} */
+/* or */
+#cast span {
+  color: purple;
+}
+
+/* child combinator */
+/* the > combinator selects elements that are direct children of the first element */
+#cast > li {
+  background-color: antiquewhite;
+}
+
+ol > li {
+  border: 1px solid red;
+}
+
+/* compound selector */
+/* we can combine class,id and element selectors(withoud spaces */
+h2.score {
+  color: blueviolet;
+}

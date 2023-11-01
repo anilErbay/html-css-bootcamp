@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Form Control</h1>
+    <!-- Text Input -->
+    <input type="text" />
+    <input type="text" placeholder="text" />
+
+    <!-- Button -->
+    <button type="submit">Submit</button>
+    <button type="submit">Submit</button>
+    <button type="submit">Submit</button>
+    <br /><br />
+    <hr />
+
+    <!-- Form Element -->
+    <!-- <form action="https://www.google.com/search"> 
+      <input type="text" name="username"/>
+      <input type="text" name="q"/>
+      <button>Submit</button>
+    </form> -->
+
+    <form action="">
+      <input type="text" name="firstname" placeholder="first name" />
+      <input type="text" name="lastname" placeholder="last name" />
+      <button type="submit">Submit</button>
+    </form>
+
+    <br /><br />
+    <hr />
+
+    <!-- Labels -->
+    <!-- Match a label element to a form control using "for" attribute. It must match the "id" attribute on an input -->
+
+    <form action="">
+      <label for="firstname">First Name</label>
+      <input
+        type="text"
+        name="firstname"
+        id="firstname"
+        placeholder="first name"
+        required
+      />
+      <br /><br />
+      <label for="lastname">Last Name</label>
+      <input
+        type="text"
+        name="lastname"
+        id="lastname"
+        placeholder="last name"
+        required
+      />
+      <br /><br />
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" />
+      <input type="number" name="" id="" />
+      <input type="range" name="" id="" />
+      <input type="color" name="" id="" />
+      <input type="email" name="" id="" required />
+      <button>Submit</button>
+      <br /><br />
+      <!-- text area -->
+      <textarea name="summary" id="summary" cols="30" rows="10">
+Summary:</textarea
+      >
+      <input type="range" min="0" max="10" name="volumelevel" />
+
+      <!-- checkbox -->
+      <label for="agree_tos">I agree to the terms of service </label>
+      <input type="checkbox" id="agree_tos" />
+
+      <br /><br />
+      <hr />
+      <!-- selects -->
+      <label for="shirtsize">Select size:</label>
+      <select name="shirtsize" id="shirtsize">
+        <option value="s">Small</option>
+        <option value="m">Medium</option>
+        <option value="l">Large</option>
+      </select>
+      <br /><br /><br />
+      <!-- radio button -->
+      <label for="phone">Call me</label>
+      <input type="radio" name="contact" id="phone" value="phone" />
+      <label for="email">Email me</label>
+      <input type="radio" name="contact" id="email" value="email" />
+    </form>
+  </body>
+</html>

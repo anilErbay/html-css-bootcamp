@@ -1,0 +1,105 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.pgs-link .pgs-logo {
+  width: 130px;
+  height: 24px;
+  display: inline-block;
+  margin: 15px 50px 0 0;
+}
+
+.nav-bar {
+  margin: 30px auto 50px;
+  background-color: #fdc33c;
+  width: 80%;
+  border-radius: 5px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  display: inline-block;
+  color: #faf9f9;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 0 30px;
+}
+
+.nav-bar ul {
+  display: inline-block;
+}
+
+.nav-bar li {
+  display: inline-block;
+}
+
+.nav-bar li a:hover {
+  border-bottom: 2px solid #faf9f9;
+  padding: 0;
+}
+
+/* section */
+.fleet #airbus,
+#boeing,
+.about h1 {
+  background-image: linear-gradient(to right, #fa6a24 0, #f2ac14 100%);
+  color: #faf9f9;
+  width: max-content;
+  margin: 30px auto 50px;
+  text-transform: uppercase;
+}
+
+.airbus {
+  padding: 30px;
+}
+
+.fleet .card {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 49.8%;
+  padding: 30px;
+  /* border: 1px solid #f2ac14; */
+}
+
+.fleet .card img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.fleet .card h2 {
+  font-size: 20px;
+  font-weight: 300;
+  margin: 8px 0 16px 0;
+}
+
+.fleet .card img:hover {
+  opacity: 0.9;
+}
+
+/* footer / about */
+.about .pgs-history {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.about {
+  width: 40%;
+  min-width: 600px;
+  margin: 100px auto 200px;
+}
+
+/* footer */
+.footer {
+  background-color: #f2ac14;
+  width: 100%;
+  height: 200px;
+  padding-top: 30px;
+}
+
+.footer img {
+  width: 300px;
+  height: 100px;
+  margin: 0 auto;
+  display: block;
+}

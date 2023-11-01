@@ -1,0 +1,31 @@
+.box {
+  border: 2px solid black;
+  height: 400px;
+  width: 400px;
+  display: inline-block;
+  background-image: radial-gradient(cyan, pink);
+}
+
+.box2 {
+  border: 2px solid black;
+  height: 400px;
+  width: 400px;
+  display: inline-block;
+  background-image: radial-gradient(cyan, pink, yellow);
+}
+
+.box3 {
+  border: 2px solid black;
+  height: 400px;
+  width: 400px;
+  display: inline-block;
+  background-image: radial-gradient(circle at bottom, cyan, pink, yellow);
+}
+
+.box4 {
+  border: 2px solid black;
+  height: 400px;
+  width: 400px;
+  display: inline-block;
+  background-image: conic-gradient(cyan, pink, yellow,cyan);
+}

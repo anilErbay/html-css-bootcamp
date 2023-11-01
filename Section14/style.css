@@ -1,0 +1,11 @@
+.container {
+  border: 1px solid black;
+  height: 600px;
+  width: 600px;
+}
+
+.box {
+  background-color: olive;
+  height: 50%;
+  width: 50%;
+}
