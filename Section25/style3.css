@@ -1,0 +1,25 @@
+.container {
+  height: 600px;
+  width: 600px;
+  margin: 200px auto;
+  background-color: black;
+  box-shadow: 0 6px 20px rgb(0 0 0 / 0.2);
+  display: grid;
+  /* grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr); */
+  grid-template-columns: [col1-start] 1fr [col1-end col2-start] 1fr [col2-end col3-start] 1fr [col3-end];
+
+  grid-template-rows: [row1-start] 1fr [row1-end row2-start] 1fr [row2-end];
+}
+
+.box {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+}
+/* We can also name our lines in a Grid Container! This can be helpful later when we position Grid Items , since we can specify which line they start at and which they end at */
+
+.first {
+    grid-column: col2-start / span 2;
+    grid-row: row2-start;
+}

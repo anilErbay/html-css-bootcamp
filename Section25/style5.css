@@ -1,0 +1,38 @@
+.container {
+  height: 700px;
+  width: 700px;
+  margin: 200px auto;
+  background-color: black;
+  box-shadow: 0 6px 20px rgb(0 0 0 / 0.2);
+  display: grid;
+  grid-template-columns: 1fr 150px;
+  grid-template-rows: 100px 1fr 100px;
+  grid-template-areas:
+    "navbar navbar"
+    "main sidebar"
+    "footer footer";
+    gap: 20px;
+    padding: 20px;
+}
+
+.box {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.first {
+  grid-area: navbar;
+}
+
+.second {
+  grid-area: main;
+}
+
+.third {
+  grid-area: sidebar;
+}
+
+.fourth {
+  grid-area: footer;
+}
