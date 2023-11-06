@@ -1,0 +1,12 @@
+.container {
+  width: 80%;
+  height: 700px;
+  margin: 200px auto;
+  background-color: black;
+  display: grid;
+  /* grid-template-columns: 200px; */
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  /* grid-template-columns: minmax(500px, 2fr); */
+  /* grid-template-rows: minmax(100px, auto); */
+  grid-template: repeat(2,1fr) / repeat(5, minmax(100px,500px));
+}

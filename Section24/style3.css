@@ -1,0 +1,12 @@
+.container {
+  width: 700px;
+  height: 700px;
+  margin: 200px auto;
+  background-color: black;
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr); */
+
+  /* grid-template: <row values> / <column values> */
+  grid-template: 1fr 1fr / 1fr 1fr 1fr;
+}
