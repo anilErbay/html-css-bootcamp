@@ -1,0 +1,23 @@
+h1 {
+  font-size: 4rem;
+}
+
+h1::before {
+  content: "BEFORE";
+  color: red;
+  font-size: 2rem;
+}
+
+/* h1::after {
+  content: "AFTER";
+  color: blue;
+  font-size: 2rem;
+} */
+
+h1::after {
+  content: "";
+  height: 30px;
+  width: 30px;
+  background-color: purple;
+  display: inline-block;
+}
