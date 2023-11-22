@@ -1,0 +1,23 @@
+:root {
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --spacing-xl: 64px;
+}
+
+button {
+  padding: var(--spacing-lg);
+}
+
+@media (max-width: 800px) {
+  button {
+    padding: var(--spacing-md);
+  }
+}
+
+@media (max-width: 600px) {
+    button {
+      padding: var(--spacing-sm);
+    }
+  }
+  
